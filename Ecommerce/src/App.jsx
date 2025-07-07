@@ -6,9 +6,13 @@ import { About } from './pages/about'
 import { Contact } from './pages/contact'
 import { Cart } from './pages/cart'
 import { NavBar } from './components/navBar'
+import { useEffect, useState } from 'react'
+import axios from 'axios';
 
 
 const App = () =>{
+  
+
   return (
    <BrowserRouter>
    <NavBar/>
